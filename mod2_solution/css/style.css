@@ -1,19 +1,52 @@
 *{
     box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+span{
+    display: block;
+    border: 1px solid red;
+    position: absolute;
+    right:0px;
+    top:0px;
+    border-top: none;
+    border-right: none;
+    padding: 5px 15px;
 }
 
 p{
     border: 1px solid red;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 10px;
+    padding: 35px 15px 15px 15px;
+    margin: 20px;
     background-color: grey;
     color:white;
+    position:relative;
 }
 
 .row{
     width: 100%;
 }
+
+div:nth-child(1) > p > span {
+    background: blue;
+}
+div:nth-child(2) > p > span {
+    background: red;
+}
+div:nth-child(3) > p > span {
+    background: aqua;
+    color: black;
+}
+
+
+
 
 @media (min-width:992px){
     .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,
