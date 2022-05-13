@@ -8,6 +8,7 @@
 h1{
     text-align: center;
     margin: 20px 0px 20px 0px;
+    font-size: 1.75em;
 }
 
 span{
@@ -19,6 +20,7 @@ span{
     border-top: none;
     border-right: none;
     padding: 5px 15px;
+    font-size: 1.25em;
 }
 
 p{
@@ -28,6 +30,7 @@ p{
     background-color: grey;
     color:white;
     position:relative;
+    line-height: 20px
 }
 
 .row{
