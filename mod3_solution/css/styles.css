@@ -11,6 +11,7 @@ body{
     border: 3px solid #000;
     border-radius: 0;
     background-color: gray;
+    margin-bottom: 0;
 }
 
 .navbar-brand  h1{
@@ -55,4 +56,13 @@ body{
 
 .navbar-default .navbar-collapse{
     border:0;
+}
+
+#our-menu{
+    font-weight: bold;
+}
+.content-text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: grey;
 }
